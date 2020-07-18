@@ -1,0 +1,85 @@
+.myBugs-badge {
+  position: absolute;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: green;
+}
+
+.myBugs-badgeInfo {
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border: 1px solid black;
+  display: none;
+}
+
+.myBugs-opened {
+  display: block;
+}
+
+.myBugs-overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 99999;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .2);
+}
+
+.myBugs-modal {
+  padding: 16px;
+  height: 500px;
+  width: 400px;
+  background: #fff;
+}
+
+.myBugs-modal > * {
+  font-family: Arial, serif !important;
+}
+
+.myBugs-bugHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myBugs-bugClose {
+  color: red;
+  cursor: pointer;
+}
+
+.myBugs-bugTitle {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.myBugs-bugFormField {
+  padding: 10px 0;
+}
+
+.myBugs-bugButtonsWrapper {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.myBugs-buttonPrimary {
+  margin: 0 20px;
+  border: 0;
+  background: green;
+  color: #fff;
+}
+
+.myBugs-buttonSecondary {
+  margin: 0 20px;
+  border: 0;
+  background: red;
+  color: #fff;
+}
